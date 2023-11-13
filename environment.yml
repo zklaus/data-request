@@ -1,0 +1,14 @@
+---
+
+name: data-request
+channels:
+  - conda-forge
+
+dependencies:
+  # Development dependencies
+  - black
+  - myst-parser
+  - pre-commit
+  - pydata-sphinx-theme
+  - sphinx
+  - sphinx-toolbox
