@@ -12,3 +12,4 @@ dependencies:
   - pydata-sphinx-theme
   - sphinx
   - sphinx-toolbox
+  - sphinxcontrib-mermaid

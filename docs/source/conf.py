@@ -57,7 +57,10 @@ extensions = [
     "sphinx.ext.napoleon",
     "myst_parser",
     "sphinx_toolbox.collapse",
+    "sphinxcontrib.mermaid",
 ]
+
+mermaid_version = "10.5.0"
 
 myst_enable_extensions = ["colon_fence"]
 
