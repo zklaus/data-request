@@ -11,15 +11,15 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
-import sys
-from importlib.metadata import version
-from pathlib import Path
+# import sys
+# from importlib.metadata import version
+# from pathlib import Path
 
-# If extensions (or modules to document with autodoc) are in another directory,
-# add these directories to sys.path here. If the directory is relative to the
-# documentation root, use os.path.abspath to make it absolute, like shown here.
-root = Path(__file__).absolute().parent.parent.parent
-sys.path.insert(0, str(root))
+# # If extensions (or modules to document with autodoc) are in another directory,
+# # add these directories to sys.path here. If the directory is relative to the
+# # documentation root, use os.path.abspath to make it absolute, like shown here.
+# root = Path(__file__).absolute().parent.parent.parent
+# sys.path.insert(0, str(root))
 
 # -- RTD configuration ------------------------------------------------
 
@@ -94,13 +94,13 @@ html_sidebars = {
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
-    "https://docs.python.org/": None,
-    "pandas": (
-        "https://pandas.pydata.org/pandas-docs/stable/",
-        "https://pandas.pydata.org/pandas-docs/stable/objects.inv",
-    ),
-    "numpy": (
-        "https://docs.scipy.org/doc/numpy/",
-        "https://docs.scipy.org/doc/numpy/objects.inv",
-    ),
+    # "https://docs.python.org/": None,
+    # "pandas": (
+    #     "https://pandas.pydata.org/pandas-docs/stable/",
+    #     "https://pandas.pydata.org/pandas-docs/stable/objects.inv",
+    # ),
+    # "numpy": (
+    #     "https://docs.scipy.org/doc/numpy/",
+    #     "https://docs.scipy.org/doc/numpy/objects.inv",
+    # ),
 }
